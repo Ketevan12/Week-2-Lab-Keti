@@ -8,9 +8,9 @@
   <body>
 
 <section>
-    <h3>Prompt ##</h3>
+    <h1>Prompt 1</h1>
     <div>
-      Your code goes here...
+        <strong>This text is important!</strong>
     </div>
   </section>
   </body>
