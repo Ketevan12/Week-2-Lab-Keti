@@ -1,0 +1,234 @@
+style.css
+
+strong { 
+    font-weight: bold;
+    style="color:#000000";
+  }
+  body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 40px;
+   margin-inline: 60px;
+
+  }body {
+    background-color: lightblue;
+  }
+ 
+  .center1 {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 20%;
+    max-width: 50%;
+    height: auto;
+    border-image-outset: 40px 40px;
+    border: black;
+    border-style: dashed;
+    border-radius: 100px;
+    text-decoration:none;
+  }
+  
+  .block {
+    font-family: 'Shrikhand', cursive;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding: 10px;
+border: #000000;
+background-color: #000000;
+color: rgb(238, 206, 76);
+border-style: dashed;
+font-size: 50px;
+cursor: pointer;
+text-align: center;
+}
+.button{
+  font-family: 'Shrikhand', cursive;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding: 10px;
+border: #000000;
+background-color: #000000;
+color: rgb(238, 206, 76);
+border-style: dashed;
+font-size: 50px;
+cursor: pointer;
+text-align: center;
+}
+
+
+
+.block:hover {  background-color: #e5e5e5;
+}
+.flex-wrap>div a:hover {  background-color: #e5e5e5;
+}
+
+.flex-wrap> div { 
+
+  text-decoration: none;
+    font-size: 40px;
+  flex-direction: row;
+  Height:600px;
+  Width:600px;
+ padding-left: 50px;
+ text-decoration:none
+}
+.flex-wrap {display: table-row;
+  text-decoration: none;
+    font-size: 40px;
+  text-align: center;
+    Height:600px;
+  Width:600px;
+  flex-direction: column;
+  padding:10px;
+  font-family:  Courier, (monospace);
+  text-decoration:none}
+
+  .ul {
+    text-decoration: none;
+    display: inline-block;
+max-width:10%; /* limit width */
+word-break:break-all; /* wrap extended text*/
+border:1px solid rgb(0, 0, 0) /* demo */
+color:violet
+}
+
+blockquote {
+    margin-left: 0;
+    font-weight: bold;
+   color: blue;
+   font-size: larger;
+   border-radius: 3px;
+}
+.a.link { font-size: large; 
+  width: 150px;}
+span.class-2{ border-color: rgb(238, 206, 76);
+  border: 5px;}
+.class-3{border-color: rgb(238, 206, 76);
+border: 5px;}
+.red{ color:blue}
+.ul{color:violet}
+
+a {
+  width: 150px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out,  30px;
+}
+a:hover {
+  width: 150px;
+  color: salmon;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+/* Presentational styles */
+a {
+  width: 150px;
+  color: #54b3d6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+#two{
+
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background:rgb(0, 0, 0); 
+ 
+  display:none;
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  border:30px;
+  border: #b4e2da;
+  color:rgb(255, 236, 23);
+  text-align: center;
+ 
+}
+.block {
+  font-family: 'Shrikhand', cursive;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding: 10px;
+border: #000000;
+background-color: #000000;
+color: rgb(238, 206, 76);
+border-style: dashed;
+font-size: 50px;
+cursor: pointer;
+text-align: center;
+}
+.red{ color: violet;}
+input:focus {
+  background-color: yellow;
+}
+.focus { src: format(10px);
+  width: 250px;
+  
+}
+p {
+  font-weight: bold;
+}
+
+li:last-child {
+  border: 2px solid orange;
+}
+li:first-child {
+  border: 40px solid purple;
+}
+.color{ color: tan;}
+.color2{color:  #364236; }
+.color3{color:	#800000}
+.color4{color: #ff0000}
+.background-image: url("https://www.savethekoala.com/wp-content/uploads/2021/01/1.jpgf")
+.center1 {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 20%;
+  max-width: 50%;
+  height: auto;
+  border-image-outset: 40px 40px;
+  border: black;
+  border-style: dashed;
+  border-radius: 100px;
+  text-decoration:none;
+}
+.card {
+  box-shadow: 10px 50px 103px rgba(170, 30, 186, 0.9);
+}
+.card2 {
+  box-shadow: 0 20px 40px rgba(238, 255, 0, 0.5);
+}
+.card3{
+box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
